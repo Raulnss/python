@@ -1,0 +1,23 @@
+import pyautogui as py
+import time
+py.PAUSE = 2
+py.press("win")
+py.write("bloco de notas")
+py.press("enter")
+py.hotkey("ctrl" , "s")
+py.write("aa.bat")
+py.press("enter")
+py.write("@echo on")
+py.press("enter")
+py.write("color 02")
+py.press("enter")
+py.write(":loop")
+py.press("enter")
+py.write("echo nada")
+py.press("enter")
+py.write("goto :loop")
+py.sleep(5)
+py.hotkey("ctrl" , "s")
+py.press("win")
+py.write("explorador de arquivos")
+py.press("enter")

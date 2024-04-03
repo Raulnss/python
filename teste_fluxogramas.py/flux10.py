@@ -1,0 +1,6 @@
+n1 = int(input("coloque uma nota: "))
+n2 = int(input("coloque outra nota: "))
+n3 = int(input("coloque outra nota: "))
+n4 = int(input("coloque outra nota: "))
+n5 = int(input("coloque outra nota: "))
+print("a media é: ",(n1+n2+n3+n4+n5)/5)
